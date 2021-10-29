@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!--css style 1st type 
+        <style>
+        body{
+            color:red;
+        }
+    </style> -->
+    <!-- third way of doing CSS:external link -->
+    <link href = "/styles.css" rel ="stylesheet"/>
+</head>
+<body>
+    <h1 >Welcome to prajwal's Component library</h1>
+    <!-- in h1, style="color:red" 2nd type -->
+    <p >I am attending neog's camp and I want to make library which would make all my projects look good and consistent.</p>
+    <p>this paragraph will have a <strong>bold</strong>text</p>
+    <small>this is relatively smaller text</small>
+    <hr>
+    <h2>@typography</h2>
+    <h1>this is the biggest headline</h1>
+    <h2>this is second biggest</h2>
+<p  >this is the normal text</p>
+<small>this is relatively small</small>
+<hr>
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container " >this is fluid container and it will go till end of the page</div>
+    
+    <h3>center container</h3>
+    <div class="container container-center">this is centeered container and it will go till specified width</div>
+    <hr>
+    <h2>@links</h2>
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
+    <hr>
+   <h2>@lists</h2>
+   <h3>unordered list</h3>
+   <ul class="list-non-bullet">
+       <li>first one</li>
+       <li>second one</li>
+       <li>third one</li>
+    </ul>
+    <h3>unordered inline list</h3>
+    <ul class=" list-non-bullet">
+        <li class="list-item-inline">inline one</li>
+        <li class="list-item-inline">inline two</li>
+        <li class="list-item-inline">inline three</li>
+    </ul>
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li >pen</li>
+        <li >paper</li>
+       
+        <li > books</li>
+    </ol>
+    <hr>
+    <h2>@nav</h2>
+    <nav class="navigation container">
+    <div  class="nav-brand">ia am brand</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link " href="/">products</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link link-active" href ="/">about</a>
+        </li>
+    </ul>
+</nav>
+<hr>
+<h2>@header</h2>
+<header class="hero">
+    <img class="hero-img" src="/picture/pic.svg"/>
+    <h1 class="hero-heading ">prajwal the <span style="color: var(--primary-color);">web devloper</span> </h1>
+</header>
+    <hr>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+        <h1>white section</h1>
+        <p >this will have white background</p>
+    </div>
+        </section>
+        <section class="section of">
+     <div class="container container-center">
+        <h1>off-white section</h1>
+        <p >this will have gray background</p>
+        </div>
+    </section>
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">social one</a></li>
+            <li class="list-item-inline"><a class="link" href="/">social two</a> </li>
+            <li class="list-item-inline"><a class="link" href="/">social three</a> </li>
+        </ul>
+    </footer>
+<div  style="height:30vh"></div>
+
+</body>
+</html>
